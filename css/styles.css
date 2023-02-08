@@ -201,6 +201,10 @@ ul {
 .features-list {
   display: flex;
   align-items: stretch;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .pics {
